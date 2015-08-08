@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sami.NetConfigController">
+   <children>
+      <ListView fx:id="lstFiles" layoutX="14.0" layoutY="14.0" minWidth="600.0" prefHeight="111.0" prefWidth="572.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <Button fx:id="btnAdd" layoutX="521.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnAdd_Click" text="Add..." AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="14.0" />
+      <Button fx:id="btnRun" layoutX="185.0" layoutY="226.0" mnemonicParsing="false" onAction="#RunExport" prefHeight="31.0" prefWidth="102.0" text="Run" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="161.0" />
+      <Button fx:id="btnExit" layoutX="14.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnExit_Click" text="Exit" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="14.0" />
+      <Button fx:id="btnAbout" layoutX="65.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnAbout_Click" text="About..." AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="65.0" />
+      <Button fx:id="btnRemove" layoutX="293.0" layoutY="226.0" mnemonicParsing="false" onAction="#btnRemove_Click" prefHeight="31.0" prefWidth="79.0" text="Remove" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="76.0" />
+   </children>
+</AnchorPane>

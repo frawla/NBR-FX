@@ -1,0 +1,23 @@
+/* Application wide styles */
+
+@font-face {
+    font-family: Ubunto;
+    src: url('/others/UbuntuMono-R.ttf');
+}
+
+.list-cell 
+{
+  /*-fx-font: 12pt "UbuntuMono-R" ;*/
+  -fx-font-size: 12pt;
+  -fx-font-family: Ubunto;
+  -fx-font-weight: bold;
+}
+
+
+.Button 
+{
+  /*-fx-font: 12pt "UbuntuMono-R" ;*/
+  -fx-font: 12pt UbuntuMono-R ;
+  -fx-font-weight: bold;
+}
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="com.sami.NetConfigController" 
+			maxHeight="-Infinity" 
+			maxWidth="-Infinity" 
+			minHeight="-Infinity" 
+			minWidth="-Infinity" 
+			prefHeight="400.0" 
+			prefWidth="600.0" 
+			xmlns="http://javafx.com/javafx/8" 
+			xmlns:fx="http://javafx.com/fxml/1" 
+			>
+   <children>
+      <Button fx:id="btnGUI" layoutX="184.0" layoutY="125.0" mnemonicParsing="false" onAction="#GUI" prefHeight="31.0" prefWidth="85.0" text="run GUI" />
+      <ListView id="ilst1" layoutX="13.0" layoutY="30.0" prefHeight="60.0" prefWidth="0.0" style="-fx-pref-width: 200;" />
+      <ComboBox layoutX="15.0" layoutY="125.0" prefWidth="150.0" />
+      <Hyperlink ellipsisString="Ellipsis" layoutX="433.0" layoutY="126.0" prefHeight="29.0" prefWidth="137.0" text="Hyperlink" textFill="#218221" underline="true">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <Reflection bottomOpacity="0.3" topOpacity="0.51" />
+         </effect>
+      </Hyperlink>
+      <MenuButton layoutX="283.0" layoutY="75.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <ToggleButton layoutX="129.0" layoutY="200.0" mnemonicParsing="false" text="ToggleButton" />
+      <ProgressIndicator layoutX="409.0" layoutY="64.0" progress="0.0" />
+      <ProgressBar layoutX="13.0" layoutY="95.0" prefWidth="200.0" progress="0.35" />
+      <PasswordField id="txtpass" layoutX="224.0" layoutY="29.0" promptText="-" text="sami" />
+      <DatePicker id="Date1" layoutX="283.0" layoutY="274.0" promptText="put date" />
+      <ChoiceBox layoutX="325.0" layoutY="318.0" prefWidth="150.0" />
+      <TextField fx:id="txt" layoutX="20.0" layoutY="252.0" promptText="Enter your name" style="-fx-font-size: 20 pt;" text="salam">
+         <font>
+            <Font name="Vrinda" size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnWin7" layoutX="290.0" layoutY="125.0" mnemonicParsing="false" onAction="#Win7" prefHeight="31.0" prefWidth="137.0" text="Win7 Theme" />
+      <Button fx:id="btnMacOS" layoutX="290.0" layoutY="159.0" mnemonicParsing="false" onAction="#MacOS" prefHeight="31.0" prefWidth="137.0" text="Mac OS Theme" />
+      <Button fx:id="btnFlatter" layoutX="290.0" layoutY="200.0" mnemonicParsing="false" onAction="#Flatter" prefHeight="31.0" prefWidth="137.0" text="Flatter Theme" />
+   </children>
+</AnchorPane>

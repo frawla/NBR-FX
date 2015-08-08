@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="266.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NetConfigTest">
+   <children>
+      <ListView fx:id="lstFiles" layoutX="14.0" layoutY="14.0" minWidth="600.0" prefHeight="111.0" prefWidth="572.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <Button fx:id="btnAdd" layoutX="521.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnAdd_Click" text="Add..." AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="14.0" />
+      <Label fx:id="lblGood" layoutX="444.0" layoutY="226.0" prefHeight="31.0" prefWidth="119.0" text="I Love You" textFill="#ee1515" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="113.0" />
+      <Label layoutX="474.0" layoutY="226.0" prefHeight="31.0" prefWidth="240.0" text="(lblGood.text)" textFill="#ee1515" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="239.0" />
+   </children>
+</AnchorPane>

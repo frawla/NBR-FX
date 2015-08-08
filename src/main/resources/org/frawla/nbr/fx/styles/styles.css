@@ -1,0 +1,18 @@
+/* Application wide styles */
+
+
+.list-cell 
+{
+  /*-fx-font: 12pt "UbuntuMono-R" ;*/
+  -fx-font: 12pt digital7 ;
+  -fx-font-weight: bold;
+}
+
+
+.Button 
+{
+  /*-fx-font: 12pt "UbuntuMono-R" ;*/
+  -fx-font: 12pt UbuntuMono-R ;
+  -fx-font-weight: bold;
+}
+

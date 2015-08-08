@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="439.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/index.jpg" />
+         </image>
+      </ImageView>
+      <Label id="lblCredits" layoutX="164.0" layoutY="14.0" prefHeight="228.0" prefWidth="245.0" text="&lt;html&gt;&lt;code&gt;&lt;b&gt;Version :&lt;/b&gt; 1.1 &lt;br&gt;&lt;/code&gt;&lt;/html&gt;" />
+      <WebView fx:id="webAbout" layoutX="237.0" layoutY="107.0" prefHeight="318.0" prefWidth="467.0" />
+   </children>
+</AnchorPane>
