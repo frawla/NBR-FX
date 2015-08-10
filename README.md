@@ -3,6 +3,7 @@ This is the Java FX GUI for NBR project
 
 # Prerequisites
 
+* (0) [NBR-core Project] (http://github.com/frawla/NBR-core.git)
 * (1) Java 8
 * (2) Gradle 2.4 
 * (3) Maven 3.0.4
