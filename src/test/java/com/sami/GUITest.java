@@ -1,24 +1,19 @@
 package com.sami;
-import static org.junit.Assert.*;
-import org.junit.BeforeClass;
-import org.junit.Test;
 
+import org.junit.Before;
+import org.junit.Test;
 
 public class GUITest
 {
-
-    @BeforeClass
-    public static void setUpBeforeClass() throws Exception
+    @Before
+    public void setup()
     {
-        
+        /* TODO implementation is necessary*/
     }
 
     @Test
     public void test()
     {
-        
-        
-        fail( "Not yet implemented" );
+        /* TODO implementation is necessary*/
     }
-
 }
